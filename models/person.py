@@ -1,6 +1,4 @@
-class Person:
-    def __init__(self, name):
-        self.name = name
+from models.base_user import BaseUser
 
-    def __str__(self):
-        return self.name
+class Person(BaseUser):
+    pass  # Inherits from BaseUser (demonstrates inheritance)
